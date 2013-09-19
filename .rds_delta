@@ -1,6 +1,10 @@
 #delete
 #add
-#modify
+res/wgt/README.md
 res/wgt/author-signature.xml
+res/wgt/config.xml
+res/wgt/icon.png
+res/wgt/index.html
 res/wgt/js/main.js
 res/wgt/signature1.xml
+#modify
