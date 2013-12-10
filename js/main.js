@@ -1,9 +1,8 @@
-var user_agent = "Panda Tizen mobile (iPhone;)";
 //Initialize function
 var init = function () {
-	var userAgent = navigator.userAgent + user_agent;
+	
+	var userAgent = 'Panda Tizen mobile like iPhone - ' + navigator.userAgent; 
 	tizen.websetting.setUserAgentString(userAgent, successCallback);
-	tizen.websetting.removeAllCookies();
 };
 
 function successCallback() {
